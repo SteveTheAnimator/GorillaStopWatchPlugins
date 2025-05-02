@@ -19,6 +19,7 @@ namespace GorillaStopWatch
         void Start()
         {
             GorillaTagger.OnPlayerSpawned(Init);
+
         }
 
         void Init()
