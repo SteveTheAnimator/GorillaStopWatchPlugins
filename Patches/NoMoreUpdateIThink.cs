@@ -29,6 +29,14 @@ namespace GorillaStopWatch.Patches
             if (primaryPressed && primaryCooldown <= 0f || Keyboard.current.sKey.wasPressedThisFrame)
             {
                 isRunning = !isRunning;
+                if(isRunning)
+                {
+                    Plugin.instance.RunEvent("Start");
+                }
+                else
+                {
+                    Plugin.instance.RunEvent("Stop");
+                }
                 primaryCooldown = cooldownDuration;
             }
 
@@ -37,6 +45,7 @@ namespace GorillaStopWatch.Patches
                 elapsedTime = 0f;
                 isRunning = false;
                 secondaryCooldown = cooldownDuration;
+                Plugin.instance.RunEvent("Stop");
             }
 
             if (isRunning)
