@@ -69,7 +69,7 @@ public class ExamplePlugin : IStopWatchPlugin
 
     public void OnAwake()
     {
-        Console.WriteLine("[ExamplePlugin] Lap recorded.");
+        Console.WriteLine("[ExamplePlugin] I have been awoken.");
     }
 }
 ```
