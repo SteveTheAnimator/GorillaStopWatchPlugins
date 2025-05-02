@@ -1,9 +1,12 @@
-# GorillaStopWatch
-A plugin for my GorillaStats mod
+# GorillaStopWatch Plugins
+A plugin feature for the plugin for arielthemonke's GorillaStats mod
 
-This mod makes the gorillastats watch be a stopwatch
+The original mod makes the gorillastats watch be a stopwatch
 
 ![Stopwatchshowcase.png](Assets/Stopwatchshowcase.png)
+
+This new version by me lets you add custom plugins!
+Yay!
 
 ### Please note that this mod will disable GorilllaStats
 
